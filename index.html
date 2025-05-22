@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nekrasov MC</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">Nekrasov</div>
+            <button class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#home">Главная</a>
+                <a href="#modes">Режимы</a>
+                <a href="#donate">Донат</a>
+                <a href="#rules">Правила</a>
+                <a href="#discord" class="discord-btn">
+                    <i class="fab fa-discord"></i> Discord
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>NEKRASOV</h1>
+            <p>Создай свою историю в мире безграничных возможностей</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-play"></i> Начать игру
+                </a>
+                <a href="#" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Скачать лаунчер
+                </a>
+            </div>
+            <div class="ip-block">
+                <span class="ip">play.nekrasov.mc</span>
+                <button class="copy-ip">
+                    <i class="fas fa-copy"></i>
+                </button>
+                <div class="online-counter">
+                    <span class="online-dot"></span>
+                    Онлайн: <span class="player-count">128</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modes" id="modes">
+        <div class="container">
+            <h2 class="section-title">Игровые режимы</h2>
+            <div class="modes-grid">
+                <div class="mode-card" data-aos="fade-up">
+                    <div class="mode-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3>Выживание</h3>
+                    <p>Классическое выживание с уникальными механиками</p>
+                    <ul class="mode-features">
+                        <li><i class="fas fa-check"></i> Приват территории до 100к блоков</li>
+                        <li><i class="fas fa-check"></i> Система кланов и фракций</li>
+                        <li><i class="fas fa-check"></i> Кастомные питомцы и мобы</li>
+                        <li><i class="fas fa-check"></i> Торговля и аукционы</li>
+                        <li><i class="fas fa-check"></i> Уникальные квесты</li>
+                        <li><i class="fas fa-check"></i> Система профессий</li>
+                    </ul>
+                    <a href="#" class="btn btn-mode">Начать игру</a>
+                </div>
+
+                <div class="mode-card" data-aos="fade-up">
+                    <div class="mode-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>SkyBlock</h3>
+                    <p>Начни свой путь на летающем острове</p>
+                    <ul class="mode-features">
+                        <li><i class="fas fa-check"></i> 10 типов островов</li>
+                        <li><i class="fas fa-check"></i> Автоматизация</li>
+                        <li><i class="fas fa-check"></i> Система уровней</li>
+                        <li><i class="fas fa-check"></i> Кастомные биомы</li>
+                        <li><i class="fas fa-check"></i> Особые мобы</li>
+                        <li><i class="fas fa-check"></i> Уникальные события</li>
+                    </ul>
+                    <a href="#" class="btn btn-mode">Создать остров</a>
+                </div>
+
+                <div class="mode-card" data-aos="fade-up">
+                    <div class="mode-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>PvP</h3>
+                    <p>Сражайся на аренах и турнирах</p>
+                    <ul class="mode-features">
+                        <li><i class="fas fa-check"></i> 10 уникальных арен</li>
+                        <li><i class="fas fa-check"></i> Система рейтинга</li>
+                        <li><i class="fas fa-check"></i> Турниры с призами</li>
+                        <li><i class="fas fa-check"></i> Кастомное оружие</li>
+                        <li><i class="fas fa-check"></i> Система достижений</li>
+                        <li><i class="fas fa-check"></i> Призовой фонд</li>
+                    </ul>
+                    <a href="#" class="btn btn-mode">В бой</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="donate" id="donate">
+        <div class="container">
+            <h2 class="section-title">Привилегии</h2>
+            <div class="donate-grid">
+                <div class="donate-card" data-aos="fade-up">
+                    <div class="donate-header">
+                        <div class="donate-badge">Начальный</div>
+                        <h3>VIP</h3>
+                        <div class="price">
+                            <span class="amount">100₽</span>
+                            <span class="period">навсегда</span>
+                        </div>
+                    </div>
+                    <ul class="donate-features">
+                        <li><i class="fas fa-check"></i> Префикс [VIP]</li>
+                        <li><i class="fas fa-check"></i> Команда /kit vip</li>
+                        <li><i class="fas fa-check"></i> Цветной чат</li>
+                        <li><i class="fas fa-check"></i> 2 привата</li>
+                        <li><i class="fas fa-check"></i> Телепорт к игрокам</li>
+                        <li><i class="fas fa-check"></i> Сохранение инвентаря</li>
+                    </ul>
+                    <a href="#" class="btn btn-donate">Купить</a>
+                </div>
+
+                <div class="donate-card premium" data-aos="fade-up">
+                    <div class="donate-header">
+                        <div class="donate-badge">Популярный</div>
+                        <h3>PREMIUM</h3>
+                        <div class="price">
+                            <span class="amount">300₽</span>
+                            <span class="period">навсегда</span>
+                        </div>
+                    </div>
+                    <ul class="donate-features">
+                        <li><i class="fas fa-check"></i> Все преимущества VIP</li>
+                        <li><i class="fas fa-check"></i> Префикс [PREMIUM]</li>
+                        <li><i class="fas fa-check"></i> Команда /fly</li>
+                        <li><i class="fas fa-check"></i> 5 приватов</li>
+                        <li><i class="fas fa-check"></i> Кастомные частицы</li>
+                        <li><i class="fas fa-check"></i> Питомцы и скины</li>
+                    </ul>
+                    <a href="#" class="btn btn-donate">Купить</a>
+                </div>
+
+                <div class="donate-card elite" data-aos="fade-up">
+                    <div class="donate-header">
+                        <div class="donate-badge">Максимальный</div>
+                        <h3>ELITE</h3>
+                        <div class="price">
+                            <span class="amount">500₽</span>
+                            <span class="period">навсегда</span>
+                        </div>
+                    </div>
+                    <ul class="donate-features">
+                        <li><i class="fas fa-check"></i> Все преимущества PREMIUM</li>
+                        <li><i class="fas fa-check"></i> Префикс [ELITE]</li>
+                        <li><i class="fas fa-check"></i> Креатив режим</li>
+                        <li><i class="fas fa-check"></i> 10 приватов</li>
+                        <li><i class="fas fa-check"></i> Особые питомцы</li>
+                        <li><i class="fas fa-check"></i> Все команды</li>
+                    </ul>
+                    <a href="#" class="btn btn-donate">Купить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Nekrasov</div>
+                    <p>© 2025 Nekrasov MC. Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const navLinks = document.querySelector('.nav-links');
+            
+            mobileMenu.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                mobileMenu.innerHTML = navLinks.classList.contains('active') 
+                    ? '<i class="fas fa-times"></i>' 
+                    : '<i class="fas fa-bars"></i>';
+            });
+
+            const copyBtn = document.querySelector('.copy-ip');
+            const ip = document.querySelector('.ip').textContent;
+
+            copyBtn.addEventListener('click', () => {
+                navigator.clipboard.writeText(ip).then(() => {
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i>';
+                    setTimeout(() => {
+                        copyBtn.innerHTML = '<i class="fas fa-copy"></i>';
+                    }, 2000);
+                });
+            });
+
+            const playerCount = document.querySelector('.player-count');
+            let count = parseInt(playerCount.textContent);
+
+            setInterval(() => {
+                const variation = Math.floor(Math.random() * 11) - 5;
+                count = Math.max(0, count + variation);
+                playerCount.textContent = count;
+                
+                if (variation > 0) {
+                    playerCount.style.color = '#2ecc71';
+                } else if (variation < 0) {
+                    playerCount.style.color = '#e74c3c';
+                }
+                
+                setTimeout(() => {
+                    playerCount.style.color = '';
+                }, 500);
+            }, 5000);
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            window.addEventListener('scroll', () => {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 100) {
+                    navbar.style.background = 'rgba(17, 17, 17, 0.95)';
+                } else {
+                    navbar.style.background = 'rgba(17, 17, 17, 0.8)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
